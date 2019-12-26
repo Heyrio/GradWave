@@ -3,6 +3,8 @@ import HeaderBar from '../components/HeaderBar';
 import SideBar from '../components/SideBar'
 import { Grid } from '@material-ui/core';
 
+//  This container will be connected to Redux
+
 export default function MainUserContainer() {
     return (
         <div>
