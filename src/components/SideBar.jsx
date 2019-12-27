@@ -16,7 +16,11 @@ import {styles} from './SideBar.styles.js'
    
   return (
     <div className={classes.test}>
-      Some stuff
+      <div className={classes.profileCircle}>
+      </div>
+      <div className={classes.userName}>
+        Angela Vachon
+      </div>
     </div>
   )
 }
