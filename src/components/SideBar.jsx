@@ -9,6 +9,9 @@ import { withStyles } from '@material-ui/core/styles';
 import {styles} from './SideBar.styles.js'
 import { Grid } from '@material-ui/core';
 import SideBarButton from './SideBarButton'
+import AddIcon from '@material-ui/icons/Add';
+import PersonTwoToneIcon from '@material-ui/icons/PersonTwoTone';
+import PhotoTwoToneIcon from '@material-ui/icons/PhotoTwoTone';
 
  function SideBar(props) {
    const {
@@ -32,6 +35,7 @@ import SideBarButton from './SideBarButton'
         <Grid item>
           <SideBarButton
             buttonName={"Create New Post"}
+            buttonIcon={<AddIcon/>}
           />
         </Grid>
       </Grid>
@@ -39,6 +43,7 @@ import SideBarButton from './SideBarButton'
         <Grid item>
           <SideBarButton
             buttonName={"My Photos"}
+            buttonIcon={<PhotoTwoToneIcon/>}
           />
         </Grid>
       </Grid>
@@ -46,6 +51,7 @@ import SideBarButton from './SideBarButton'
         <Grid item>
           <SideBarButton
             buttonName={"About Me"}
+            buttonIcon={<PersonTwoToneIcon/>}
           />
         </Grid>
       </Grid>
