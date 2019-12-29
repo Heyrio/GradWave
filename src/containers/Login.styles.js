@@ -1,6 +1,6 @@
 import Background from '../components/images/loginbg.jpeg';
 import color from '@material-ui/core/colors/amber';
-import { positions, fontSize } from '@material-ui/system';
+import { positions, fontSize, fontWeight } from '@material-ui/system';
 import WaveIcon from '../components/images/waveIcon.png';
 
 export const styles = theme => ({
@@ -21,14 +21,18 @@ export const styles = theme => ({
     loginTitle:{
         color: "#077B75",
         fontSize: 40,
-        // textShadow: "1px 1px 2px #000000",
         textAlign: "center",
     },
 
     loginCard:{
         textAlign: "center",
-        height: "50vh",
-        backgroundColor: "#fff"
+        display: "flex",
+        justifyContent: "center",
+        height: "25vh",
+        backgroundColor: "#fff",
+        opacity: 0.8,
+        padding: 20,
+        fontWeight: 800
     },
 
     waveIcon:{
@@ -37,6 +41,26 @@ export const styles = theme => ({
         backgroundImage: `url(${WaveIcon})`,
         height: 100,
         width: 125
+    },
+
+    subText:{
+        color: "#fff",
+        fontSize: 40,
+        fontWeight: 800
+    },
+
+    loginTextField:{
+       display: 'flex',
+       justifyContent: "center"
+    },
+    button:{
+        backgroundColor: "#077B75",
+        color: "#fff",
+        '&:hover': {
+            backgroundColor: "#077B75"
+        
+    },
+       
     }
 
   
