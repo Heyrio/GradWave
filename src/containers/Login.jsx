@@ -25,17 +25,22 @@ function Login(props) {
                     <Grid item lg={6}>
                         <Paper className={classes.loginCard} variant="outlined">
                             <Grid container>
-                                <Grid alignItems={"center"} item>
-                                    <div className={classes.loginTextField}>
+                                <Grid item lg={12}>
+                                    <span>
+                                        Login
+                                    </span>
+                                </Grid>
+                                <Grid item lg={12}>
+                                    <div className>
                                         <form className={classes.root} noValidate autoComplete="off">
-                                            <TextField id="outlined-basic" label="Email" variant="outlined" />
+                                            <TextField id="standard-basic" label="Email"/>
                                         </form>
                                     </div>
                                 </Grid>
-                                <Grid item>
+                                <Grid item lg={12}>
                                     <div>
                                         <form className={classes.root} noValidate autoComplete="off">
-                                            <TextField  id="outlined-basic" label="Password" variant="outlined" />
+                                        <TextField id="standard-basic" label="Password"/>  
                                         </form>
                                     </div>
                                 </Grid>

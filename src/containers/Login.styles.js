@@ -60,7 +60,9 @@ export const styles = theme => ({
             backgroundColor: "#077B75"
         
     },
-       
+    loginTxtField:{
+        padding: "0px"
+    }   
     }
 
   
