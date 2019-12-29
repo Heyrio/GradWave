@@ -1,34 +1,40 @@
 import Background from './images/gf.jpg';
 import color from '@material-ui/core/colors/amber';
 export const styles = theme => ({
-  test:{
+  sideBarContainer:{
     marginTop: 10, 
-    padding: 15, 
+    padding: 25, 
     height: 'calc(100vh - 70px)', 
     width: '100%', 
-    border: "1px solid black",
     marginRight: 20,
-    backgroundColor: "#5bc8db",
-    color: "white",
+    backgroundColor: "#fff",
+    color: '#232323'
   },
 
   profileCircle:{
     borderRadius: "100%",
-    border: "1px solid black",
-    width: "80%",
-    height: "35%",
+    border: "1px solid #232323",
+    width: 50,
+    height: 50,
     backgroundColor: "#fff",
     backgroundSize: "cover",
     backgroundImage:  `url(${Background})`,
-    margin: "0 auto"
+    cursor: "pointer",
+
   },
 
   userName:{
     textAlign: "center",
-    fontSize: 24,
-    fontWeight: 600,
-     textShadow: "2px 2px 4px #000000"
+    fontSize: 18,
+    // fontWeight: 500,
+    position: "absolute",
+    top: 102,
+    left: 75
+  },
+
+  SideBarHr:{
+    border: "0.5px solid gray"
+
   }
   
-
 });
