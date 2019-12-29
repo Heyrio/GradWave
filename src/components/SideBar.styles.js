@@ -29,7 +29,8 @@ export const styles = theme => ({
     // fontWeight: 500,
     position: "absolute",
     top: 102,
-    left: 75
+    left: 75,
+    color: "#488286"
   },
 
   SideBarHr:{
