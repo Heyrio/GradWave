@@ -26,7 +26,6 @@ export const styles = theme => ({
   userName:{
     textAlign: "center",
     fontSize: 18,
-    // fontWeight: 500,
     position: "absolute",
     top: 102,
     left: 75,
