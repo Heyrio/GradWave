@@ -4,7 +4,7 @@ import SideBar from '../components/SideBar'
 import { Grid } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import {styles} from './MainUserContainer.styles.js'
-
+import FriendListBar from '../components/FriendListBar'
 //  This container will be connected to Redux
 
 function MainUserContainer(props) {
@@ -23,7 +23,39 @@ function MainUserContainer(props) {
                         <SideBar/>
                     </Grid>
                     <Grid container  item xs={9} spacing={3}>
-                        <Grid className={classes.mainFeed} item lg={9}>
+                        <Grid item lg={9}>
+                            <div className={classes.mainFeedContainer}>
+                                <div className={classes.mainFeed}>
+                                two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
+                            debitis saepe dignissimos quod? Adipisci tempora 
+                            nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
+                             quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
+                             two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
+                            debitis saepe dignissimos quod? Adipisci tempora 
+                            nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
+                             quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
+                        two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
+                            debitis saepe dignissimos quod? Adipisci tempora 
+                            nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
+                             quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
+                             two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
+                            debitis saepe dignissimos quod? Adipisci tempora 
+                            nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
+                             quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
+                        two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
+                            debitis saepe dignissimos quod? Adipisci tempora 
+                            nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
+                             quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
+                             two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
+                            debitis saepe dignissimos quod? Adipisci tempora 
+                            nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
+                             quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
                             two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
                             debitis saepe dignissimos quod? Adipisci tempora 
                             nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
@@ -34,9 +66,51 @@ function MainUserContainer(props) {
                             nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
                              quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
+                        two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
+                            debitis saepe dignissimos quod? Adipisci tempora 
+                            nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
+                             quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
+                             two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
+                            debitis saepe dignissimos quod? Adipisci tempora 
+                            nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
+                             quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
+                        two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
+                            debitis saepe dignissimos quod? Adipisci tempora 
+                            nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
+                             quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
+                             two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
+                            debitis saepe dignissimos quod? Adipisci tempora 
+                            nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
+                             quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
+                        two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
+                            debitis saepe dignissimos quod? Adipisci tempora 
+                            nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
+                             quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
+                             two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
+                            debitis saepe dignissimos quod? Adipisci tempora 
+                            nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
+                             quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
+                            two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
+                            debitis saepe dignissimos quod? Adipisci tempora 
+                            nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
+                             quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
+                             two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
+                            debitis saepe dignissimos quod? Adipisci tempora 
+                            nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
+                             quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
+                                </div>
+                            </div>
                         </Grid>
                         <Grid item lg={3}>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo accusamus perferendis ipsam numquam quo repellat eum voluptatem rerum debitis velit? Ut distinctio sequi, dolore pariatur quis reiciendis iste repellendus corrupti?
+                           <FriendListBar/>
                         </Grid>
                     </Grid>
                 </Grid>

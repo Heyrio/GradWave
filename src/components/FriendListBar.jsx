@@ -1,9 +1,9 @@
 import React from 'react'
 import { classes } from 'istanbul-lib-coverage'
 import { withStyles } from '@material-ui/core/styles';
-import {styles} from './MainUserContainer.styles.js'
+import {styles} from './FriendListBar.styles.js'
 
-export default function FriendListBar(props) {
+function FriendListBar(props) {
     const {classes} = props;
     return (
         <div className={classes.listContainer}>
@@ -11,3 +11,6 @@ export default function FriendListBar(props) {
         </div>
     )
 }
+
+
+export default withStyles(styles)(FriendListBar);
