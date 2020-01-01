@@ -2,7 +2,6 @@ import React from 'react'
 import HeaderBar from '../components/HeaderBar';
 import SideBar from '../components/SideBar'
 import { Grid } from '@material-ui/core';
-import { classes } from 'istanbul-lib-coverage';
 import { withStyles } from '@material-ui/core/styles';
 import {styles} from './MainUserContainer.styles.js'
 
@@ -23,8 +22,8 @@ function MainUserContainer(props) {
                     <Grid container item lg={3} spacing={3}>
                         <SideBar/>
                     </Grid>
-                    <Grid container className={classes.mainFeed} item xs={9} spacing={3}>
-                        <Grid item lg={12}>
+                    <Grid container  item xs={9} spacing={3}>
+                        <Grid className={classes.mainFeed} item lg={9}>
                             two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
                             debitis saepe dignissimos quod? Adipisci tempora 
                             nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
@@ -35,6 +34,9 @@ function MainUserContainer(props) {
                             nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
                              quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
+                        </Grid>
+                        <Grid item lg={3}>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo accusamus perferendis ipsam numquam quo repellat eum voluptatem rerum debitis velit? Ut distinctio sequi, dolore pariatur quis reiciendis iste repellendus corrupti?
                         </Grid>
                     </Grid>
                 </Grid>
