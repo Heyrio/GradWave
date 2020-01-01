@@ -10,7 +10,9 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import {styles} from './HeaderBar.styles.js'
 import { withStyles } from '@material-ui/core/styles';
-
+import AccountCircleTwoToneIcon from '@material-ui/icons/AccountCircleTwoTone';
+import { Link } from 'react-router-dom'
+import Tooltip from '@material-ui/core/Tooltip';
 function HeaderBar(props) {
   
 const {classes} = props;
@@ -21,6 +23,18 @@ const {classes} = props;
           <Typography className={classes.headerBarTitle}>
             GradWave
           </Typography>
+          <IconButton
+              edge="end"
+              aria-label="account of current user"
+              component={Link} to="/"
+              aria-haspopup="true"
+              className={classes.settingsBtn}
+              color="inherit"
+            >
+              <Tooltip title="Account Settings">
+                  <AccountCircle />
+              </Tooltip>
+            </IconButton>
         </Toolbar>
       </AppBar>
     </div>

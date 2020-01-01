@@ -7,6 +7,9 @@ export const styles = theme => ({
     headerBarTitle:{
         fontSize: 20,
         fontWeight: 500,
+    },
+    settingsBtn:{
+        marginLeft: "87.5vw"
     }
   
 });
