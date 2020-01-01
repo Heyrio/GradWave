@@ -1,10 +1,4 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
+import React, { useState } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import {styles} from './SideBar.styles.js'
 import { Grid } from '@material-ui/core';
@@ -14,9 +8,15 @@ import PersonTwoToneIcon from '@material-ui/icons/PersonTwoTone';
 import PhotoTwoToneIcon from '@material-ui/icons/PhotoTwoTone';
 
  function SideBar(props) {
+
+  const [selectedTab, setSelectedTab] = useState(0);
+  const [modalToggle, setModalToggle] = useState(false);
+
+
    const {
      classes
    } = props;
+
    
   return (
     <div className={classes.sideBarContainer}>
@@ -34,6 +34,7 @@ import PhotoTwoToneIcon from '@material-ui/icons/PhotoTwoTone';
       <Grid container>
         <Grid item>
           <SideBarButton
+            // onClick={}
             buttonName={"Create New Post"}
             buttonIcon={<AddIcon/>}
           />
@@ -42,6 +43,7 @@ import PhotoTwoToneIcon from '@material-ui/icons/PhotoTwoTone';
       <Grid container>
         <Grid item>
           <SideBarButton
+            // onClick={}
             buttonName={"My Photos"}
             buttonIcon={<PhotoTwoToneIcon/>}
           />
@@ -50,6 +52,7 @@ import PhotoTwoToneIcon from '@material-ui/icons/PhotoTwoTone';
       <Grid container>
         <Grid item>
           <SideBarButton
+            // onClick={}
             buttonName={"About Me"}
             buttonIcon={<PersonTwoToneIcon/>}
           />

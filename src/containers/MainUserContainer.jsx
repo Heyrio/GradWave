@@ -24,7 +24,6 @@ function MainUserContainer(props) {
                     </Grid>
                     <Grid container  item xs={9} spacing={3}>
                         <Grid item lg={9}>
-                            <div className={classes.mainFeedContainer}>
                                 <div className={classes.mainFeed}>
                                 two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
                             debitis saepe dignissimos quod? Adipisci tempora 
@@ -33,6 +32,7 @@ function MainUserContainer(props) {
                              quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
                              two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
                             debitis saepe dignissimos quod? Adipisci tempora 
+                            <hr/>
                             nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
                              quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
@@ -43,6 +43,7 @@ function MainUserContainer(props) {
                              quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
                              two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
                             debitis saepe dignissimos quod? Adipisci tempora 
+                            <hr/>
                             nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
                              quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
@@ -63,6 +64,7 @@ function MainUserContainer(props) {
                              quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
                              two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
                             debitis saepe dignissimos quod? Adipisci tempora 
+                            <hr/>
                             nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
                              quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
@@ -88,6 +90,7 @@ function MainUserContainer(props) {
                              quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
                         two col Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ipsum exercitationem alias 
                             debitis saepe dignissimos quod? Adipisci tempora 
+                            <hr/>
                             nostrum ex blanditiis deleniti harum rem quidem unde? Doloremque, harum repellendus.
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
                              quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
@@ -107,7 +110,6 @@ function MainUserContainer(props) {
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sed voluptates ullam reiciendis laboriosam,
                              quo voluptate porro vero error commodi sunt. Eum, facere perferendis magni quia saepe debitis voluptates nesciunt!
                                 </div>
-                            </div>
                         </Grid>
                         <Grid item lg={3}>
                            <FriendListBar/>
